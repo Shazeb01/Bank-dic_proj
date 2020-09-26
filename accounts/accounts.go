@@ -34,3 +34,14 @@ func (a *Account) Withdraw(amount int) error {
 	a.balance -= amount
 	return nil
 }
+
+//ChangeOwner Owner
+func (a *Account) ChangeOwner(newOwner string) {
+	a.owner = newOwner
+}
+
+//Owner for new owner
+func (a Account) Owner() string {
+	return a.owner
+
+}
