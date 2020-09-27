@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/Shazeb01/Bank-dic_proj/accounts"
+	"github.com/Shazeb01/Bank-dic_proj/pkg/accounts"
 )
 
 func main() {
